@@ -1,0 +1,15 @@
+PODS:
+  - paper-onboarding (2.0.1)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - paper-onboarding (~> 2.0.1)
+  - SnapKit (~> 3.2.0)
+
+SPEC CHECKSUMS:
+  paper-onboarding: a8e001214d9ce9decf78e160b3823f396dbd51ac
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 1bb810dc1149b5736920513af23b161d31ec5264
+
+COCOAPODS: 1.2.0
