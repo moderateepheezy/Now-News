@@ -16,18 +16,6 @@ class NavigationController: UINavigationController , UIViewControllerTransitioni
         self.navigationBar.tintColor = UIColor.white
         let fontDictionary = [ NSForegroundColorAttributeName:UIColor.white]
         self.navigationBar.titleTextAttributes = fontDictionary
-        self.navigationBar.setBackgroundImage(imageLayerForGradientBackground(), for: .default)
-    }
-    
-    private func imageLayerForGradientBackground() -> UIImage {
-        
-        let frame = UIScreen.main.bounds
-        let updatedFrame = CGRect(x: 0, y: 0, width: frame.width, height: 64)
-        let layer = CAGradientLayer.gradientLayerForBounds(bounds: updatedFrame)
-        UIGraphicsBeginImageContext(layer.bounds.size)
-        layer.render(in: UIGraphicsGetCurrentContext()!)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return image!
+        self.navigationBar.barTintColor = primaryColor
     }
 }

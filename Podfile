@@ -8,4 +8,5 @@ target 'now-news' do
   # Pods for now-news
   pod 'paper-onboarding', '~> 2.0.1'
   pod 'SnapKit', '~> 3.2.0'
+  pod 'AZDropdownMenu'
 end

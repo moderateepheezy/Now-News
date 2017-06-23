@@ -91,8 +91,9 @@ class WalkThroughVC: UIViewController, PaperOnboardingDataSource, PaperOnboardin
     }
     
     func getStartedButtonDIdPressed() {
-        let vc = UIViewController()
-        present(vc, animated: true, completion: nil)
+        let vc = MainVC()
+        let navVc = NavigationController(rootViewController: vc)
+        present(navVc, animated: true, completion: nil)
     }
     
     func onboardingDidTransitonToIndex(_ index: Int) {

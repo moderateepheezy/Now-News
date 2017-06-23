@@ -57,6 +57,8 @@ extension SlideInPresentationAnimator: UIViewControllerAnimatedTransitioning {
       dismissedFrame.origin.y = -presentedFrame.height
     case .bottom:
       dismissedFrame.origin.y = transitionContext.containerView.frame.size.height
+    case .drawer:
+        dismissedFrame.origin.x = -presentedFrame.width
     }
     
     // 4

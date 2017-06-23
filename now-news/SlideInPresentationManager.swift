@@ -13,6 +13,7 @@ enum PresentationDirection {
   case top
   case right
   case bottom
+  case drawer
 }
 
 class SlideInPresentationManager: NSObject {

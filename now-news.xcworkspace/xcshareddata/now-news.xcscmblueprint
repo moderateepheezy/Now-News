@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "029B70441578AE0C82FAF7B9387A69A8AF0B7AAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "029B70441578AE0C82FAF7B9387A69A8AF0B7AAB" : 9223372036854775807,
+    "BF99DE6BB5BB74624B53DF8C1D1CAC692569E22F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DD1C298E-79FA-48E2-9400-ACEC14DDC6CC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "029B70441578AE0C82FAF7B9387A69A8AF0B7AAB" : "now-news\/",
+    "BF99DE6BB5BB74624B53DF8C1D1CAC692569E22F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "now-news",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "now-news.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/moderateepheezy\/Now-News.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "029B70441578AE0C82FAF7B9387A69A8AF0B7AAB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/rfnldevs\/payporte-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF99DE6BB5BB74624B53DF8C1D1CAC692569E22F"
+    }
+  ]
+}
