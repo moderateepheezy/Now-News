@@ -9,9 +9,13 @@
 import UIKit
 import SnapKit
 
-class LoginVC: UIViewController {
+class LoginVC: UIViewController, UITextFieldDelegate {
     
     var didSetupConstraints = false
+    
+    var activeField: UITextField?
+    
+    var bottomConstraint: Constraint? = nil
     
     lazy var slideInTransitioningDelegate = SlideInPresentationManager()
     
@@ -28,6 +32,11 @@ class LoginVC: UIViewController {
         iv.image = #imageLiteral(resourceName: "Mark")
         iv.contentMode = .scaleAspectFit
         return iv
+    }()
+    
+    var scrollView: UIScrollView = {
+       let sv = UIScrollView()
+        return sv
     }()
     
     var needHelpButton: UIButton = {
@@ -92,12 +101,18 @@ class LoginVC: UIViewController {
         
         view.applyGradient(colours: gradientColor)
         view.setNeedsUpdateConstraints()
+
         
         addingViewsAddSubViews()
+        
+        usernameTextField.delegate = self
+        passwordtextField.delegate = self
         
         createAccountButton.addTarget(self, action: #selector(showCreateAccount), for: .touchUpInside)
         
         getStartedButton.addTarget(self, action: #selector(showIntroScreen), for: .touchUpInside)
+        
+        
         
     }
     
@@ -109,6 +124,7 @@ class LoginVC: UIViewController {
     func addingViewsAddSubViews(){
         view.addSubview(bgImageView)
         view.addSubview(logoImageView)
+        view.addSubview(scrollView)
         view.addSubview(needHelpButton)
         view.addSubview(createAccountButton)
         view.addSubview(getStartedButton)
@@ -123,5 +139,16 @@ class LoginVC: UIViewController {
         vc.modalPresentationStyle = .custom
         present(vc, animated: true, completion: nil)
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        passwordtextField.resignFirstResponder()
+        usernameTextField.resignFirstResponder()
+    }
+    
 
 }

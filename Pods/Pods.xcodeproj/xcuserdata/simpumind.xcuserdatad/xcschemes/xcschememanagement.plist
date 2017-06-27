@@ -8,39 +8,36 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-now-news.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>paper-onboarding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>069AD50580C4E833D78C38665B217E5A</key>
+		<key>0BA6525597C1B817693051CCA494E16A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0BA6525597C1B817693051CCA494E16A</key>
+		<key>1F3CCBF9482697318AC9510895BF404F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -50,7 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>538B59452A571860B3796431973BA944</key>
+		<key>BA4A98124B45DF76DBF8BCC64ED373FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C235F77E101E742652CCF98FFDFA5182</key>
 		<dict>
 			<key>primary</key>
 			<true/>

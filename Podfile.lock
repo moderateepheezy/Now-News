@@ -1,18 +1,21 @@
 PODS:
   - AZDropdownMenu (1.1.2)
+  - IQKeyboardManagerSwift (4.0.10)
   - paper-onboarding (2.0.1)
   - SnapKit (3.2.0)
 
 DEPENDENCIES:
   - AZDropdownMenu
+  - IQKeyboardManagerSwift (= 4.0.10)
   - paper-onboarding (~> 2.0.1)
   - SnapKit (~> 3.2.0)
 
 SPEC CHECKSUMS:
   AZDropdownMenu: 411c1b445fd29bb1e56b219131aaf294ba21b9b6
+  IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
   paper-onboarding: a8e001214d9ce9decf78e160b3823f396dbd51ac
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 19029f0c6bf694468c90eaa8f2e095e5bba2cc5f
+PODFILE CHECKSUM: 766d4044ed3dc4e1058cf64d025dd42f6c1549ce
 
 COCOAPODS: 1.2.0
