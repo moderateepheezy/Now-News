@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2884261EA329D9901DDB1CDF /* Pods_now_news.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85CB5B03890D3AA042CA5C2 /* Pods_now_news.framework */; };
+		94074DAA1F029350007845FD /* MainVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94074DA91F02934F007845FD /* MainVC+Extension.swift */; };
+		94074DAC1F02981A007845FD /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94074DAB1F02981A007845FD /* CustomHeaderView.swift */; };
+		94074DAF1F029ABA007845FD /* NewsContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94074DAE1F029ABA007845FD /* NewsContentCell.swift */; };
 		9419C6481EF9401200E62142 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C6471EF9401200E62142 /* BaseVC.swift */; };
 		9427F5251EFD182500FF2188 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427F5241EFD182500FF2188 /* MainVC.swift */; };
 		9427F5291EFD1AD200FF2188 /* SlideNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427F5281EFD1AD200FF2188 /* SlideNavVC.swift */; };
@@ -33,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		4EFD8A8CE30F4CEE49CC5DB7 /* Pods-now-news.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-now-news.release.xcconfig"; path = "Pods/Target Support Files/Pods-now-news/Pods-now-news.release.xcconfig"; sourceTree = "<group>"; };
+		94074DA91F02934F007845FD /* MainVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainVC+Extension.swift"; sourceTree = "<group>"; };
+		94074DAB1F02981A007845FD /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		94074DAE1F029ABA007845FD /* NewsContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsContentCell.swift; sourceTree = "<group>"; };
 		9419C6471EF9401200E62142 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		9427F5241EFD182500FF2188 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		9427F5281EFD1AD200FF2188 /* SlideNavVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideNavVC.swift; sourceTree = "<group>"; };
@@ -72,9 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94074DAD1F029A7B007845FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94074DAE1F029ABA007845FD /* NewsContentCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		9419C6451EF93FBF00E62142 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				94074DAD1F029A7B007845FD /* View */,
 				9427F52C1EFD2A8800FF2188 /* extensions */,
 				9419C6461EF93FE400E62142 /* Controller */,
 			);
@@ -95,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				9427F52D1EFD2AA000FF2188 /* SlideNavVC+Extension.swift */,
+				94074DA91F02934F007845FD /* MainVC+Extension.swift */,
 			);
 			name = extensions;
 			sourceTree = "<group>";
@@ -184,6 +200,7 @@
 			children = (
 				94A481391EF18C950090A79C /* IconicTextField.swift */,
 				94A4814A1EF2D5AD0090A79C /* NavigationController.swift */,
+				94074DAB1F02981A007845FD /* CustomHeaderView.swift */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -341,11 +358,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94074DAF1F029ABA007845FD /* NewsContentCell.swift in Sources */,
 				94A481451EF2A6180090A79C /* SlideInPresentationManager.swift in Sources */,
 				9427F5251EFD182500FF2188 /* MainVC.swift in Sources */,
 				94A4810E1EF169DF0090A79C /* LoginVC+Extension.swift in Sources */,
 				94A481441EF2A6180090A79C /* SlideInPresentationAnimator.swift in Sources */,
+				94074DAC1F02981A007845FD /* CustomHeaderView.swift in Sources */,
 				9427F52E1EFD2AA000FF2188 /* SlideNavVC+Extension.swift in Sources */,
+				94074DAA1F029350007845FD /* MainVC+Extension.swift in Sources */,
 				94A481471EF2A6A60090A79C /*  SlideInPresentationController.swift in Sources */,
 				94A4813A1EF18C950090A79C /* IconicTextField.swift in Sources */,
 				94A481431EF2A6180090A79C /* SlideAnimator.swift in Sources */,
