@@ -44,7 +44,7 @@ class CustomHeaderView: UIView {
     var channelNameLabel: UILabel = {
         let label = UILabel()
         label.text = "SPACE.com"
-        label.font = UIFont(name: "Montserrat-Regular", size: 10)
+        label.font = UIFont(name: "Montserrat-Regular", size: 11)
         label.textColor = .white
         label.textAlignment = .left
         return label
@@ -61,7 +61,7 @@ class CustomHeaderView: UIView {
     var timeNameLabel: UILabel = {
         let label = UILabel()
         label.text = "20m ago"
-        label.font = UIFont(name: "Montserrat-Regular", size: 10)
+        label.font = UIFont(name: "Montserrat-Regular", size: 11)
         label.textColor = .white
         label.textAlignment = .left
         return label
@@ -70,7 +70,7 @@ class CustomHeaderView: UIView {
     var categoryLabeL: UnderlinedLabel = {
         let label = UnderlinedLabel()
         label.text = "SCIENCE"
-        label.font = UIFont(name: "Montserrat-Regular", size: 10)
+        label.font = UIFont(name: "Montserrat-Regular", size: 11)
         label.textColor = .white
         label.textAlignment = .right
         return label
@@ -168,7 +168,7 @@ class CustomHeaderView: UIView {
     
     func addConstraintLayouts(){
         categoryLabeL.snp.makeConstraints { (make) in
-            make.bottom.equalTo(self.snp.bottom).offset(-20)
+            make.bottom.equalTo(self.snp.bottom).offset(-22)
             make.right.equalTo(self.snp.right).offset(-20)
             make.height.equalTo(12)
             make.width.equalTo(100)
@@ -182,20 +182,20 @@ class CustomHeaderView: UIView {
         
         channelNameLabel.snp.makeConstraints { (make) in
             make.left.equalTo(chnnelIconImageView.snp.right).offset(10)
-            make.bottom.equalTo(self.snp.bottom).offset(20)
+            make.bottom.equalTo(self.snp.bottom).offset(-22)
             make.height.equalTo(12)
             make.width.equalTo(100)
         }
         
         timeImageView.snp.makeConstraints { (make) in
-            make.left.equalTo(channelNameLabel).offset(20)
+            make.left.equalTo(channelNameLabel.snp.right).offset(20)
             make.bottom.equalTo(self.snp.bottom).offset(-20)
             make.width.height.equalTo(20)
         }
         
         timeNameLabel.snp.makeConstraints { (make) in
             make.left.equalTo(timeImageView.snp.right).offset(10)
-            make.bottom.equalTo(self.snp.bottom).offset(20)
+            make.bottom.equalTo(self.snp.bottom).offset(-22)
             make.height.equalTo(12)
             make.width.equalTo(80)
         }
