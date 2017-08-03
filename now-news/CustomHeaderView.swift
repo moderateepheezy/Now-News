@@ -67,8 +67,8 @@ class CustomHeaderView: UIView {
         return label
     }()
     
-    var categoryLabeL: UnderlinedLabel = {
-        let label = UnderlinedLabel()
+    var categoryLabeL: UILabel = {
+        let label = UILabel()
         label.text = "SCIENCE"
         label.font = UIFont(name: "Montserrat-Regular", size: 11)
         label.textColor = .white
@@ -78,6 +78,18 @@ class CustomHeaderView: UIView {
         return label
     }()
     
+    
+    let categoryContainer: UIView = {
+        let v = UIView()
+        v.backgroundColor = .clear
+        return v
+    }()
+    
+    let lineView: UIView = {
+        let v = UIView()
+        v.backgroundColor = .white
+        return v
+    }()
     init(frame:CGRect,title: String, img: String) {
         self.img = img
         super.init(frame: frame)
@@ -96,7 +108,9 @@ class CustomHeaderView: UIView {
         self.addSubview(chnnelIconImageView)
         self.addSubview(timeImageView)
         self.addSubview(timeNameLabel)
-        self.addSubview(categoryLabeL)
+        self.addSubview(categoryContainer)
+        categoryContainer.addSubview(categoryLabeL)
+        categoryContainer.addSubview(lineView)
         
         addConstraintLayouts()
         
@@ -169,11 +183,29 @@ class CustomHeaderView: UIView {
     }
     
     func addConstraintLayouts(){
-        categoryLabeL.snp.makeConstraints { (make) in
+        
+        
+        let rect = Now.sharedIntance.getLabelHeight(text: categoryLabeL.text!, font: UIFont(name: "Montserrat-Regular", size: 11)!, frame: self.frame)
+        
+        categoryContainer.snp.makeConstraints { (make) in
             make.bottom.equalTo(self.snp.bottom).offset(-22)
             make.right.equalTo(self.snp.right).offset(-20)
-            make.height.equalTo(20)
-            make.width.equalTo(100)
+            make.height.equalTo(15)
+            make.width.equalTo(rect.width + 5)
+        }
+        
+        categoryLabeL.snp.makeConstraints { (make) in
+            make.left.equalTo(categoryContainer.snp.left)
+            make.right.equalTo(categoryContainer.snp.right)
+            make.height.equalTo(12)
+            make.top.equalTo(categoryContainer)
+        }
+        
+        lineView.snp.makeConstraints { (make) in
+            make.left.equalTo(categoryContainer.snp.left)
+            make.right.equalTo(categoryContainer.snp.right)
+            make.height.equalTo(1)
+            make.bottom.equalTo(categoryContainer)
         }
         
         chnnelIconImageView.snp.makeConstraints { (make) in

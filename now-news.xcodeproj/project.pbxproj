@@ -19,6 +19,7 @@
 		9472E0511F32905000947F32 /* Orkney-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9472E04D1F32905000947F32 /* Orkney-Light.ttf */; };
 		9472E0521F32905000947F32 /* Orkney-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9472E04E1F32905000947F32 /* Orkney-Medium.ttf */; };
 		9472E0531F32905000947F32 /* Orkney-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9472E04F1F32905000947F32 /* Orkney-Regular.ttf */; };
+		9472E0551F32A11100947F32 /* Now.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9472E0541F32A11100947F32 /* Now.swift */; };
 		94A480F41EF1578F0090A79C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A480F31EF1578F0090A79C /* AppDelegate.swift */; };
 		94A480FB1EF1578F0090A79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A480FA1EF1578F0090A79C /* Assets.xcassets */; };
 		94A480FE1EF1578F0090A79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A480FC1EF1578F0090A79C /* LaunchScreen.storyboard */; };
@@ -51,6 +52,7 @@
 		9472E04D1F32905000947F32 /* Orkney-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orkney-Light.ttf"; sourceTree = "<group>"; };
 		9472E04E1F32905000947F32 /* Orkney-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orkney-Medium.ttf"; sourceTree = "<group>"; };
 		9472E04F1F32905000947F32 /* Orkney-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orkney-Regular.ttf"; sourceTree = "<group>"; };
+		9472E0541F32A11100947F32 /* Now.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Now.swift; sourceTree = "<group>"; };
 		94A480F01EF1578F0090A79C /* now-news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "now-news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A480F31EF1578F0090A79C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A480FA1EF1578F0090A79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				94A481111EF172F10090A79C /* Montserrat-Bold.ttf */,
 				94A481121EF172F10090A79C /* Montserrat-Regular.ttf */,
 				94A481061EF162AF0090A79C /* Extension.swift */,
+				9472E0541F32A11100947F32 /* Now.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				94A4813E1EF29D1B0090A79C /* CreateAccountVC+Extension.swift in Sources */,
 				94A4810A1EF1695F0090A79C /* LoginVC.swift in Sources */,
 				94A481491EF2C9490090A79C /* WalkThroughVC.swift in Sources */,
+				9472E0551F32A11100947F32 /* Now.swift in Sources */,
 				9419C6481EF9401200E62142 /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

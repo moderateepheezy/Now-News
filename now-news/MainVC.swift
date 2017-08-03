@@ -35,7 +35,7 @@ class MainVC: BaseVC {
         
         self.automaticallyAdjustsScrollViewInsets = false
         
-        height = (view.frame.height * 0.55)
+        height = ((view.frame.height * 0.55) - 50)
         setUpHeader()
         addingViewsAddSubViews()
         

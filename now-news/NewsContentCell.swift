@@ -102,8 +102,7 @@ class NewsContentCell: UITableViewCell {
     
     func setupViews(){
         
-        let rect = getLabelHeight(text: categoryLabeL.text!, font: UIFont(name: "Montserrat-Regular", size: 11)!
-        )
+        let rect = Now.sharedIntance.getLabelHeight(text: categoryLabeL.text!, font: UIFont(name: "Montserrat-Regular", size: 11)!, frame: self.frame)
         
         categoryContainer.snp.makeConstraints { (make) in
             make.bottom.equalTo(self.snp.bottom).offset(-22)
@@ -158,11 +157,6 @@ class NewsContentCell: UITableViewCell {
             make.right.equalTo(self).offset(-20)
             make.height.equalTo(52)
         }
-    }
-    
-    func getLabelHeight(text: String, font: UIFont) -> CGRect{
-        
-        return  NSString(string: text).boundingRect(with: CGSize(width: self.frame.width, height: 1000) , options: NSStringDrawingOptions.usesFontLeading.union(NSStringDrawingOptions.usesLineFragmentOrigin) , attributes: [NSFontAttributeName: font], context: nil)
     }
 
 }
