@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ParallaxHeader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-now-news.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +42,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>065A20C31280964E21C0DEFDFCD78B47</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>0BA6525597C1B817693051CCA494E16A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1725EDB829D1FF449AAAB5B8BA187474</key>
+		<key>0EADC98135BDFF218FA8EEA855120208</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,7 +57,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4575EE25D498E60A31A655A1EC4000E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C235F77E101E742652CCF98FFDFA5182</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE7D595B05631027F8EBD9BFF1CA3320</key>
 		<dict>
 			<key>primary</key>
 			<true/>

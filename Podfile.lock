@@ -3,6 +3,7 @@ PODS:
   - BonMot (4.3.1)
   - IQKeyboardManagerSwift (4.0.10)
   - paper-onboarding (2.0.1)
+  - ParallaxHeader (1.0.6)
   - SnapKit (3.2.0)
 
 DEPENDENCIES:
@@ -10,6 +11,7 @@ DEPENDENCIES:
   - BonMot
   - IQKeyboardManagerSwift (= 4.0.10)
   - paper-onboarding (~> 2.0.1)
+  - ParallaxHeader
   - SnapKit (~> 3.2.0)
 
 SPEC CHECKSUMS:
@@ -17,8 +19,9 @@ SPEC CHECKSUMS:
   BonMot: 043bb5a8834cc6d74e9d624742272b92385e0a27
   IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
   paper-onboarding: a8e001214d9ce9decf78e160b3823f396dbd51ac
+  ParallaxHeader: 18ef35dfee4e565e2ef8b8d21c16d856ab1f424a
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 2927fa118a313b10c8ae0fa0d6e4a7ab40c91362
+PODFILE CHECKSUM: 63c9cdca8222a66018cabb6a3e8fc6e4f8a9315a
 
 COCOAPODS: 1.2.0

@@ -6,6 +6,7 @@ target 'now-news' do
   use_frameworks!
 
   # Pods for now-news
+  pod 'ParallaxHeader' 
   pod 'paper-onboarding', '~> 2.0.1'
   pod 'SnapKit', '~> 3.2.0'
   pod 'IQKeyboardManagerSwift', '4.0.10'
