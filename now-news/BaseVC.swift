@@ -39,7 +39,7 @@ class BaseVC: UIViewController {
         present(vc, animated: true, completion: nil)
     }
     
-    @objc private func search(){
+    @objc public func search(){
         
     }
 

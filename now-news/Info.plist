@@ -43,6 +43,10 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Orkney-Medium.ttf</string>
+		<string>Orkney-Light.ttf</string>
+		<string>Orkney-Regular.ttf</string>
+		<string>Orkney-Bold.ttf</string>
 		<string>Montserrat-Regular.ttf</string>
 		<string>Montserrat-Bold.ttf</string>
 	</array>

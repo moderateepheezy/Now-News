@@ -28,7 +28,7 @@ class CustomHeaderView: UIView {
         label.text = "Astronauts could land on Red Planet by 2039"
         label.font = UIFont(name: "Montserrat-Bold", size: 18)
         label.textColor = .white
-        label.numberOfLines = 2
+        label.numberOfLines = 0
         label.textAlignment = .left
         return label
     }()
@@ -72,6 +72,8 @@ class CustomHeaderView: UIView {
         label.text = "SCIENCE"
         label.font = UIFont(name: "Montserrat-Regular", size: 11)
         label.textColor = .white
+        label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
         label.textAlignment = .right
         return label
     }()
@@ -170,7 +172,7 @@ class CustomHeaderView: UIView {
         categoryLabeL.snp.makeConstraints { (make) in
             make.bottom.equalTo(self.snp.bottom).offset(-22)
             make.right.equalTo(self.snp.right).offset(-20)
-            make.height.equalTo(12)
+            make.height.equalTo(20)
             make.width.equalTo(100)
         }
         
@@ -182,7 +184,7 @@ class CustomHeaderView: UIView {
         
         channelNameLabel.snp.makeConstraints { (make) in
             make.left.equalTo(chnnelIconImageView.snp.right).offset(10)
-            make.bottom.equalTo(self.snp.bottom).offset(-22)
+            make.bottom.equalTo(self.snp.bottom).offset(-24)
             make.height.equalTo(12)
             make.width.equalTo(100)
         }
@@ -195,7 +197,7 @@ class CustomHeaderView: UIView {
         
         timeNameLabel.snp.makeConstraints { (make) in
             make.left.equalTo(timeImageView.snp.right).offset(10)
-            make.bottom.equalTo(self.snp.bottom).offset(-22)
+            make.bottom.equalTo(self.snp.bottom).offset(-24)
             make.height.equalTo(12)
             make.width.equalTo(80)
         }

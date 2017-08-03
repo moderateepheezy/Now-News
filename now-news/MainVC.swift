@@ -41,6 +41,7 @@ class MainVC: BaseVC {
         
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.rowHeight = 150
         tableView.register(NewsContentCell.self, forCellReuseIdentifier: cellIndentifier)
     }
     
@@ -80,6 +81,10 @@ class MainVC: BaseVC {
     func addingViewsAddSubViews(){
         view.addSubview(tableView)
     }
+    
+    override func search(){
+        print("Search got here")
+    }
 }
 
 
@@ -117,7 +122,7 @@ extension MainVC: UIScrollViewDelegate {
 extension MainVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 30
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

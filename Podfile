@@ -10,4 +10,5 @@ target 'now-news' do
   pod 'SnapKit', '~> 3.2.0'
   pod 'IQKeyboardManagerSwift', '4.0.10'
   pod 'AZDropdownMenu'
+  pod 'BonMot'
 end

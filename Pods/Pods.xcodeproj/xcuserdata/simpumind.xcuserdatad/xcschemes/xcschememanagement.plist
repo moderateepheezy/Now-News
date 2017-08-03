@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BonMot.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManagerSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>065A20C31280964E21C0DEFDFCD78B47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0BA6525597C1B817693051CCA494E16A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1F3CCBF9482697318AC9510895BF404F</key>
+		<key>1725EDB829D1FF449AAAB5B8BA187474</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA4A98124B45DF76DBF8BCC64ED373FB</key>
+		<key>C235F77E101E742652CCF98FFDFA5182</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C235F77E101E742652CCF98FFDFA5182</key>
+		<key>E70DEB7F17D0BC121A8C77AD351D4307</key>
 		<dict>
 			<key>primary</key>
 			<true/>
